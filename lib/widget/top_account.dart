@@ -19,17 +19,31 @@ class TopAccount extends StatelessWidget {
             children: [
               Text(
                 'Hello',
-                style: GoogleFonts.poppins(textStyle: const TextStyle(fontSize: 16)),
+                style: GoogleFonts.poppins(
+                    textStyle: const TextStyle(fontSize: 16)),
               ),
               Text(
                 user,
                 style: GoogleFonts.poppins(
-                    textStyle:
-                        const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                    textStyle: const TextStyle(
+                        fontSize: 20, fontWeight: FontWeight.bold)),
               ),
             ],
           )),
-          Image.asset('assets/frame.png'),
+          Container(
+            height: 48,
+            width: 48,
+            clipBehavior: Clip.antiAlias, // Ensures smooth edges
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              // Set corner radius
+              image: DecorationImage(
+                image: AssetImage('assets/frame.png'),
+                // Replace with your asset path
+                fit: BoxFit.cover, // Adjust fit as needed
+              ),
+            ),
+          ),
         ],
       ),
     );
