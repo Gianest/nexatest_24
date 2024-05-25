@@ -1,4 +1,4 @@
-#Sat May 25 17:04:51 WIB 2024
+#Sat May 25 22:04:18 WIB 2024
 base.0=C\:\\Users\\Ceguk\\StudioProjects\\nexatest\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

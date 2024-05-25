@@ -63,6 +63,7 @@ class _HomePageState extends State<HomePage> {
   SearchWidget() {
     return Container(
         margin: const EdgeInsets.only(top: 20, bottom: 20),
+        padding: const EdgeInsets.only(left: 10),
         decoration: BoxDecoration(
           color: Colors.grey[200],
           borderRadius: BorderRadius.circular(10.0), // Adjust corner radius
