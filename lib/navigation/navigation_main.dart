@@ -26,10 +26,10 @@ class _NavigationMainState extends State<NavigationMain> {
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.shifting,
         items: <BottomNavigationBarItem>[
-          _BotomnvItem('Home', 'assets/ui/home-2.svg', 0),
-          _BotomnvItem('Jadwal', 'assets/ui/calendar-2.svg', 1),
-          _BotomnvItem('Pesan', 'assets/ui/message.svg', 2),
-          _BotomnvItem('Akun', 'assets/ui/profile.svg', 3),
+          _BotomnvItem(navWidget[0].name, 'assets/ui/home-2.svg', 0),
+          _BotomnvItem(navWidget[1].name, 'assets/ui/calendar-2.svg', 1),
+          _BotomnvItem(navWidget[2].name, 'assets/ui/message.svg', 2),
+          _BotomnvItem(navWidget[3].name, 'assets/ui/profile.svg', 3),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.blue,

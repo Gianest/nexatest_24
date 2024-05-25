@@ -37,7 +37,7 @@ class TopAccount extends StatelessWidget {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               // Set corner radius
-              image: DecorationImage(
+              image: const DecorationImage(
                 image: AssetImage('assets/frame.png'),
                 // Replace with your asset path
                 fit: BoxFit.cover, // Adjust fit as needed

@@ -26,7 +26,7 @@ var navWidget = [
         child: JadwalPage(),
       )),
   Static(
-      name: 'Notifikasi',
+      name: 'Pesan',
       widget: const Center(
         child: Text('Tidak ada Pesan'),
       )),
