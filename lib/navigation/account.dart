@@ -39,7 +39,8 @@ class _AccountState extends State<Account> {
               child: Text(
                 'Keluar',
                 style: GoogleFonts.poppins(
-                    textStyle: const TextStyle(color: Colors.white, fontSize: 18)),
+                    textStyle:
+                        const TextStyle(color: Colors.white, fontSize: 18)),
               ),
             ),
           ],
